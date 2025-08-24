@@ -1,0 +1,40 @@
+.info{background-color: #4b05bd; color: #111214;
+    text-align: center; font-style: italic; margin: 1px; padding: auto;
+
+}
+
+
+
+
+body{ background-color: #f5f6f8;
+}
+h1{color: #4b05bd;
+}
+
+
+
+.profile{
+    float:right;
+    width:320;
+    border:1px solid #111214;
+    background:#afc7d8;
+    padding:12px;
+    margin:0 0 1rem 1rem;
+    borader-radius:8px;
+    font:14px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    box-shadow:0 1px 3px rgba(0,0,0,.06);
+}
+.profile h3{ margin:.25rem 0 .5rem; text-align:centre; }
+.profile img { width: 100%; height: auto;
+     display: block; border-radius: 6px;
+}
+.profile dl{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap:.6rem;
+    row-gap:.4rem;
+    margin-top:.5rem;
+}
+.profile dt{ font-weight:600; color:#374151; }
+.profile dd{ margin:0; color:#111827;}
+
